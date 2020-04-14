@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+
+h1 {
+        color: #bc204b;
+        font-size: 16pt;
+}
+
+#login-body {
+        background: #fbe9ee;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        position: relative;
+}
+
