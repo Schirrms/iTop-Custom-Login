@@ -8,6 +8,8 @@
 // source : 
 // https://www.itophub.io/wiki/page?id=2_7_0:customization:login_screen
 
+use iLoginUIExtension;
+
 class CustomCSSLoginExtension implements iLoginUIExtension
 {
 	public function ListSupportedLoginModes()
