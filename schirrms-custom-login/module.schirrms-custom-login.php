@@ -10,7 +10,7 @@ SetupWebPage::AddModule(
 		// Identification
 		//
 		'label' => 'Custom Login Screen',
-		'category' => 'business',
+		'category' => 'authentication',
 
 		// Setup
 		//
