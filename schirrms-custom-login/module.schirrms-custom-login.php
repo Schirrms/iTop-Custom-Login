@@ -17,7 +17,7 @@ SetupWebPage::AddModule(
 		'dependencies' => array(
 			'itop-config-mgmt/2.7.0'
 		),
-		'mandatory' => false,
+		'mandatory' => true,
 		'visible' => true,
 
 		// Components

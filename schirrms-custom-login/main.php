@@ -18,7 +18,7 @@ class CustomCSSLoginExtension implements iLoginUIExtension
 	public function GetTwigContext()
 	{
 		$oLoginContext = new LoginTwigContext();
-		$oLoginContext->AddCSSFile(utils::GetAbsoluteUrlModulesRoot().'/schirrms-custom-login/css/custom.css');
+		$oLoginContext->AddCSSFile(utils::GetAbsoluteUrlModulesRoot().'schirrms-custom-login/css/custom.css');
 		return $oLoginContext;
 	}
 }
