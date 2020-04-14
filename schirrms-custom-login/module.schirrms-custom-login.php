@@ -23,7 +23,7 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'main.schirrms-custom-login.php',
+			'main.php',
 			'model.schirrms-custom-login.php'
 		),
 		'webservice' => array(
