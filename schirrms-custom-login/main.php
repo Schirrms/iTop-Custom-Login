@@ -8,13 +8,13 @@
 // source : 
 // https://www.itophub.io/wiki/page?id=2_7_0:customization:login_screen
 
-use iLoginUIExtension;
-
 class CustomCSSLoginExtension implements iLoginUIExtension
 {
 	public function ListSupportedLoginModes()
 	{
-		return null;
+		// as stated by Stephen
+		// return null;
+		return array('form');
 	}
 
 	public function GetTwigContext()
