@@ -8,8 +8,6 @@
 // source : 
 // https://www.itophub.io/wiki/page?id=2_7_0:customization:login_screen
 
-use LoginTwigContext;
-
 class CustomCSSLoginExtension implements iLoginUIExtension
 {
 	public function ListSupportedLoginModes()
@@ -20,7 +18,7 @@ class CustomCSSLoginExtension implements iLoginUIExtension
 	public function GetTwigContext()
 	{
 		$oLoginContext = new LoginTwigContext();
-		$oLoginContext->AddCSSFile(utils::GetAbsoluteUrlModulesRoot().'schirrms-custom-login/css/custom.css');
+		$oLoginContext->AddCSSFile(utils::GetAbsoluteUrlModulesRoot().'/schirrms-custom-login/css/custom.css');
 		return $oLoginContext;
 	}
 }
